@@ -12,6 +12,10 @@ class Toy_car
     @color = input_color
     @brand = input_brand
   end
-  
-  
+
+  def print_info
+    p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
+  end 
+
+
 end
