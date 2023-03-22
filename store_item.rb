@@ -17,10 +17,10 @@ class Toy_car
   end
 
   def print_info
-    p "The #{car} is #{color} its made by #{brand}"
+    p "The #{@car} is #{@color}, its made by #{@brand}"
   end 
 
 end
 
-car1 = Toy_car.new("Skyline_Gtr", "Magenta", "Hot-Wheels")
+car1 = Toy_car.new("Skyline-Gtr", "Magenta", "Hot-Wheels")
 car1.print_info
