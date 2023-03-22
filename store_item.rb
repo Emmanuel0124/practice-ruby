@@ -7,6 +7,10 @@ p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
 
 
 class Toy_car
+  
+  attr_reader :input_car, :input_color, :input_brand
+  
+  
   def initialize(input_car, input_color,input_brand)
     @car = input_car
     @color = input_color
@@ -16,6 +20,7 @@ class Toy_car
   def print_info
     p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
   end 
+
 
 
 end
