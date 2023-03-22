@@ -1,8 +1,8 @@
-toy_car = {car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
+toy_car1 = {car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
 coloring_book = {Theme: "Animals", pages: 99, brand: "Crayola"}
 xylophone = {type: "Classic", brand: "Fisher-Price", keys: 8} 
 
-
+p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
 
 
 class Toy_car
@@ -17,7 +17,7 @@ class Toy_car
   end
 
   def print_info
-    p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
+    p "The #{toy_car} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
   end 
 
 end
