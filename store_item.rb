@@ -5,4 +5,3 @@ xylophone = {type: "Classic", brand: "Fisher-Price", keys: 8}
 p "The #{toy_car[:Car]} is #{toy_car[color]} its made by #{toy_car[brand]}"
 
 
-class 
