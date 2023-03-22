@@ -17,7 +17,7 @@ class Toy_car
   end
 
   def print_info
-    p "The #{toy_car} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
+    p "The #{car} is #{color} its made by #{brand}"
   end 
 
 end
