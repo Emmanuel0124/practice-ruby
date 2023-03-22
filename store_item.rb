@@ -1,3 +1,3 @@
-toys = {Toy_Car1: "Mustang",  Toy_car2: "Skyline-Gtr", }
+toy_car = {Car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
 
-puts 
+ 
