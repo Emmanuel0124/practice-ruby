@@ -1,7 +1,17 @@
-toy_car = {Car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
+toy_car = {car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
 coloring_book = {Theme: "Animals", pages: 99, brand: "Crayola"}
 xylophone = {type: "Classic", brand: "Fisher-Price", keys: 8} 
 
 p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
 
 
+
+class Toy_car
+  def initialize(input_car, input_color,input_brand)
+    @car = input_car
+    @color = input_color
+    @brand = input_brand
+  end
+  
+  
+end
