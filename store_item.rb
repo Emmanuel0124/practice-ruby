@@ -3,8 +3,16 @@
 #   color: "Magenta", 
 #   brand: "Hot-Wheels"
 # }
-coloring_book = {theme: "Animals", brand2: "Crayola", pages: 99}
-#xylophone = {type: "classic", brand: "Fisher-Price", keys: 8} 
+# coloring_book = {
+#   theme: "Animals", 
+#   brand: "Crayola", 
+#   pages: 99
+# }
+#xylophone = {
+# type: "classic", 
+# brand: "Fisher-Price", 
+# keys: 8
+# } 
 
 #p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
 
