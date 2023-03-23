@@ -14,7 +14,7 @@ class Toycar
   attr_reader :input_car, :input_color, :input_brand
   
   
-  def initialize(input_car, input_color,input_brand)
+  def initialize(input_car, input_color, input_brand)
     @car = input_car
     @color = input_color
     @brand = input_brand
@@ -46,5 +46,5 @@ p " #{theme}, #{brand2}, #{pages}"
   end 
 end
 
-coloring_book = Book.new ("Animals" "Crayola" 99)
+coloring_book = Book.new ("Animals" "Crayola" "99")
 coloring_book.print
