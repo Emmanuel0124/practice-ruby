@@ -32,3 +32,5 @@ end
 car = Car.new 
 car.honk_horn
 
+bike = Bike.new 
+bike.ring_bell
