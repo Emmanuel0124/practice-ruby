@@ -1,4 +1,8 @@
-car1 = {car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
+car1 = {
+  car: "Skyline-Gtr", 
+  color: "Magenta", 
+  brand: "Hot-Wheels"
+}
 coloring_book = {Theme: "Animals", pages: 99, brand: "Crayola"}
 #xylophone = {type: "Classic", brand: "Fisher-Price", keys: 8} 
 
