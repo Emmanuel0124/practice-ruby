@@ -1,8 +1,8 @@
-car1 = {
-  car: "Skyline-Gtr", 
-  color: "Magenta", 
-  brand: "Hot-Wheels"
-}
+# car1 = {
+#   car: "Skyline-Gtr", 
+#   color: "Magenta", 
+#   brand: "Hot-Wheels"
+# }
 coloring_book = {theme: "Animals", brand2: "Crayola", pages: 99}
 #xylophone = {type: "classic", brand: "Fisher-Price", keys: 8} 
 
@@ -32,7 +32,7 @@ car1.print_info
 
 class Book 
 
-  attr_reader :input_theme,  :input_pages,  :brand
+  attr_reader :input_theme,  :input_pages,  :input_brand2
 
   def initialize(input_theme, input_brand2, input_pages)
     @theme = input_theme 
