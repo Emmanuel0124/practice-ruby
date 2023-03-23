@@ -3,8 +3,8 @@ car1 = {
   color: "Magenta", 
   brand: "Hot-Wheels"
 }
-coloring_book = {Theme: "Animals", pages: 99, brand: "Crayola"}
-#xylophone = {type: "Classic", brand: "Fisher-Price", keys: 8} 
+coloring_book = {theme: "Animals", pages: 99, brand: "Crayola"}
+#xylophone = {type: "classic", brand: "Fisher-Price", keys: 8} 
 
 #p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
 
@@ -30,8 +30,11 @@ car1 = Toycar.new("Skyline-Gtr", "Magenta", "Hot-Wheels")
 car1.print_info
 
 
-class 
-  def initialize
-    
+class Book 
+  def initialize(input_theme, input_pages)
+    @theme = input_theme 
+    @pages = input_pages
+     
+      
   end
 end
