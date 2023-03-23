@@ -1,11 +1,11 @@
 car1 = {car: "Skyline-Gtr", color: "Magenta", brand: "Hot-Wheels"}
-#coloring_book = {Theme: "Animals", pages: 99, brand: "Crayola"}
+coloring_book = {Theme: "Animals", pages: 99, brand: "Crayola"}
 #xylophone = {type: "Classic", brand: "Fisher-Price", keys: 8} 
 
 #p "The #{toy_car[:Car]} is #{toy_car[:color]} its made by #{toy_car[:brand]}"
 
 
-class Toy_car
+class Toycar
   
   attr_reader :input_car, :input_color, :input_brand
   
@@ -22,5 +22,12 @@ class Toy_car
 
 end
 
-car1 = Toy_car.new("Skyline-Gtr", "Magenta", "Hot-Wheels")
+car1 = Toycar.new("Skyline-Gtr", "Magenta", "Hot-Wheels")
 car1.print_info
+
+
+class 
+  def initialize
+    
+  end
+end
