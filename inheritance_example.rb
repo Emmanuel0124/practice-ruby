@@ -17,13 +17,13 @@ class Vehicle
   end
 end 
 
-class Car
+class Car < Vehicle
   def honk_horn
     puts "Beeeeeeep!"
   end
 end
 
-class Bike
+class Bike < Vehicle
   def ring_bell
     puts "Ring ring!"
   end
