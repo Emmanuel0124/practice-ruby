@@ -32,7 +32,7 @@ car1.print_info
 
 class Book 
 
-  attr_reader :input_theme,  :input_pages,  :input_brand2
+  attr_reader :input_theme, :input_brand2, :input_pages
 
   def initialize(input_theme, input_brand2, input_pages)
     @theme = input_theme 
