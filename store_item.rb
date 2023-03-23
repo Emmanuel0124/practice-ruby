@@ -21,7 +21,7 @@ class Toycar
   end
 
   def print_info
-    p "The #{@car} is #{@color}, its made by #{@brand}"
+    p "The #{@car} is #{@color}, its made by #{@brand}."
   end 
 
 end
@@ -42,7 +42,7 @@ class Book
       
   end
   def print 
-    p "#{@theme}, #{@brand2}, #{@pages}"
+    p "The the theme for the coloring book is #{@theme}, its mad by #{@brand2}, and has #{@pages} pages."
   end 
 end
 
