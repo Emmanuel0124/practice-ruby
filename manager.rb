@@ -35,9 +35,9 @@ class Manager < Employee
     puts "Email sent!"
   end
 
-  def give_all_raises
-  
+  def
     
+    return 
   end 
 
 
